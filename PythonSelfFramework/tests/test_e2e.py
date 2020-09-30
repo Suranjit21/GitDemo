@@ -21,7 +21,7 @@ from selenium import webdriver
 
 
 # @pytest.mark.usefixtures("ourSetup")
-from utilities.BaseClass import BaseClass
+# from utilities.BaseClass import BaseClass
 
 
 class TestTwo(BaseClass):
@@ -67,5 +67,6 @@ class TestTwo(BaseClass):
 
        print ("try the new push and pull")
 
+       print("this is kinda fun tbh")
        print("we really out hre")
 #
